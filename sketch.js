@@ -202,7 +202,7 @@ function SpawnObstacle(){
         }
    obstacle.scale=0.5
    obstaclesGroup.add(obstacle);
-   obstacle.lifetime = 200;
+   obstacle.lifetime = width/obstacle.velocityX;
  }
 }
 
